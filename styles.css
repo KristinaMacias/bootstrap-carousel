@@ -1,0 +1,21 @@
+#carouselHero .carousel-item img {  
+  object-fit: cover;
+  /* object-position: center; */
+  overflow: hidden;
+  height: 700px;
+  /* height: 100vh; */
+}
+
+#carouselHero .carousel-item:before {
+  content: "";
+
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  object-position: center;
+}
